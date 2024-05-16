@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-.body {
+body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     color: #333;
@@ -14,3 +14,148 @@
     display: block; /* Eliminar espacio adicional alrededor de la imagen */
     margin: 0 auto; /* Centrar la imagen horizontalmente */
 }
+
+
+#header{
+	background-color: #235BC4;
+}
+
+.main{
+	
+    background-position: center;
+	padding: 50px;
+	border: 30px;
+	flex:3;
+}
+header{
+	background-color: #EE8436;
+	padding: 50px;
+	border: 30px;
+}
+
+.container{
+	background-color: #EE8436;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	padding: 30px;
+	margin: 0;
+	border: 0;
+}
+
+aside{
+	flex: 1;
+	background-color: #EE5636;
+}
+
+.ImagenAside{
+	
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: gray;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #241C61;
+    color: white
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.form-select {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.radio-label {
+    margin-right: 10px;
+}
+
+.checkbox-label {
+    margin-right: 10px;
+}
+
+.btn {
+    padding: 5px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.BodyForm{
+	background-color: #0C0A1F
+	}

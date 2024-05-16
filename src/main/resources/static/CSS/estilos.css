@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+.body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+ img {
+    max-width: 100%; /* Ajustar el ancho máximo al contenedor */
+    height: auto; /* Mantener la proporción de aspecto */
+    display: block; /* Eliminar espacio adicional alrededor de la imagen */
+    margin: 0 auto; /* Centrar la imagen horizontalmente */
+}

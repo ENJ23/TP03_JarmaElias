@@ -8,16 +8,36 @@ body {
     padding: 0;
     line-height: 1.6;
 }
- img {
-    max-width: 100%; /* Ajustar el ancho máximo al contenedor */
-    height: auto; /* Mantener la proporción de aspecto */
-    display: block; /* Eliminar espacio adicional alrededor de la imagen */
-    margin: 0 auto; /* Centrar la imagen horizontalmente */
+
+.Principal{
+	  padding: 20px; /* Espaciado interno del section */
+	  margin: 20px 0; /* Margen exterior del section */
+	  background-color: #f7f7f7; /* Color de fondo del section */
+	  border: 1px solid #e0e0e0; /* Borde del section */
+	  border-radius: 5px; /* Bordes redondeados */
+	  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+	  background-color: #8B4610;
 }
 
+.parrafo{ 
+    line-height: 1.6; /* Altura de línea para una mejor legibilidad */
+}
+
+.ulist{
+	list-style-type: disc; /* Tipo de marcador de la lista (círculos) */
+    margin: 0; /* Elimina el margen exterior por defecto */
+    padding: 0; /* Elimina el espaciado interno por defecto */
+}
+ img {
+    max-width: 100%; /* Ajustar el ancho máximo al contenedor */
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+ }
 
 #header{
-	background-color: #235BC4;
+	background-color: #1C1B1F;
+	color: gray;
 }
 
 .main{
@@ -49,8 +69,10 @@ aside{
 }
 
 .ImagenAside{
-	
+	width: 100%;
+	height: 44%;
 }
+
 
 table {
     width: 100%;
@@ -84,15 +106,6 @@ footer {
     text-align: center;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-ul li {
-    display: inline;
-    margin: 0 10px;
-}
 
 a {
     color: #fff;
@@ -109,12 +122,15 @@ form {
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: #241C61;
+    background-color: #302F3D;
     color: white
 }
 
 .form-label {
-    font-weight: bold;
+    display: block; /* Para que cada label se muestre en una línea separada */
+    margin-bottom: 5px; /* Agrega un margen inferior de 5px para separar los labels */
+    font-weight: bold; /* Aplica negrita al texto del label */
+    color: white
 }
 
 .form-control {
@@ -124,6 +140,7 @@ form {
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 3px;
+    
 }
 
 .form-select {
@@ -133,6 +150,7 @@ form {
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 3px;
+    box-sizing: border-box;
 }
 
 .radio-label {
@@ -153,9 +171,14 @@ form {
 }
 
 .btn:hover {
-    background-color: #0056b3;
+    background-color: #877161;
 }
 
 .BodyForm{
-	background-color: #0C0A1F
+	background-image: url(/images/pantallafondo.jpg);
+	background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el elemento */
+  	background-position: center; /* Centra la imagen en el elemento */
+  	background-repeat: no-repeat;
 	}
+	
+	

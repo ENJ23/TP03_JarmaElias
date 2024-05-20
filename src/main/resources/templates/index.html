@@ -2,49 +2,57 @@
 <html lang = "es">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Jarma Elias Nicolás</title>
 <link rel="stylesheet" href="/CSS/estilos.css">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body class= "body">
-	<header>
-		<h1>
+	<header class="header_nav">
+		<h1 class="main-title">
 		PROGRAMACION VISUAL --> JAVA
 		</h1>
 		
 		<nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/formulario">Formulario</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Desplegable
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Introduccion</a></li>
-            <li><a class="dropdown-item" href="#">Productos</a></li>
-            <li><a class="dropdown-item" href="#">Contacto</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Redes</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+		  <div class="container-fluid">
+		    <a class="navbar-brand" href="#">Digital Guide</a>
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+		        <li class="nav-item">
+		          <a class="nav-link active" aria-current="page" href="#">Otras Paginas Web</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="/formulario">Formulario</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#informacion">Como Entenderlo Mejor</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#redes1">Redes</a>
+		        </li>
+		        <li class="nav-item dropdown">
+		          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+		            Mas Opciones
+		          </a>
+		          <ul class="dropdown-menu">
+		            <li><a class="dropdown-item" href="#informacion">Introduccion</a></li>
+		            <li><a class="dropdown-item" href="#">Productos</a></li>
+		            <li><a class="dropdown-item" href="#">Contacto</a></li>
+		            <li><hr class="dropdown-divider"></li>
+		            <li><a class="dropdown-item" href="#redes1">Redes</a></li>
+		          </ul>
+		        </li>
+		      </ul>
+		      <form class="d-flex" role="search">
+        		<input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+        		<button class="btn btn-outline-success" type="submit">Buscar</button>
+      </form>
+		    </div>
+		  </div>
+		</nav>
 		
 		
 		
@@ -54,7 +62,7 @@
 	
 	<div class="container">
 	<main class="main">
-		<section class="Principal">
+		<section class="Principal" id="informacion">
 			<h2>
 				Introducción a Java	
 			</h2>
@@ -110,11 +118,6 @@
 				</ul>
 				
 				
-				
-				
-				
-				
-				
 		</section>
 	</main>
 	<aside>
@@ -127,7 +130,7 @@
 	</aside>
 	</div>
 	
-	<footer>
+	<footer id="redes1">
 	<h3>Redes Sociales</h3>
 		<ul class = "ulist">
 		<li><a href = "https://www.instagram.com/java_programming_basics/">Instagram</a>

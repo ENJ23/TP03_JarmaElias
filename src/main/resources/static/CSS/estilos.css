@@ -9,6 +9,7 @@ body {
     line-height: 1.6;
 }
 
+
 .Principal{
 	  padding: 20px; /* Espaciado interno del section */
 	  margin: 20px 0; /* Margen exterior del section */
@@ -38,6 +39,8 @@ body {
 #header{
 	background-color: #1C1B1F;
 	color: gray;
+	padding: 50px;
+	border: 30px;
 }
 
 .main{
@@ -47,12 +50,35 @@ body {
 	border: 30px;
 	flex:3;
 }
-header{
-	background-color: #EE8436;
+
+.header_nav{
+	background-color: #FFC598;
+	font-family: sans-serif;
 	padding: 50px;
 	border: 30px;
 }
-
+.navbar-brand{
+	 font-size: 10px; /* Tamaño de fuente */
+  	 font-weight: bold; /* Peso de la fuente en negrita */
+  	 color: #333; /* Color del texto */
+  	 text-decoration: none; /* Sin subrayado */
+}
+.nav-item{
+	
+}
+form.d-flex {
+    display: flex;
+    align-items: center;
+}
+.main-title{
+	font-size: 2.5em; /* Tamaño de fuente */
+    color: #333; /* Color del texto */
+    text-align: center; /* Alineación del texto al centro */
+    margin-top: 20px; /* Margen superior */
+    margin-bottom: 20px; /* Margen inferior */
+    text-transform: uppercase; /* Transformación del texto a mayúsculas */
+    font-weight: bold; /* Peso de la fuente en negrita */
+}
 .container{
 	background-color: #EE8436;
 	display: flex;
@@ -116,19 +142,20 @@ a:hover {
     text-decoration: underline;
 }
 
-form {
+.cliente {
     max-width: 500px;
     margin: 0 auto;
+    margin-bottom: 16px;
     padding: 20px;
     border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #302F3D;
-    color: white
+    border-radius: 4px;
+    background-color: #23303c;
+    color: white;
+    font-family: calibri;
 }
 
 .form-label {
     display: block; /* Para que cada label se muestre en una línea separada */
-    margin-bottom: 5px; /* Agrega un margen inferior de 5px para separar los labels */
     font-weight: bold; /* Aplica negrita al texto del label */
     color: white
 }
@@ -137,8 +164,7 @@ form {
     width: 100%;
     padding: 5px;
     margin-top: 5px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #1f53c5;
     border-radius: 3px;
     
 }
@@ -148,7 +174,7 @@ form {
     padding: 5px;
     margin-top: 5px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #1f53c5;
     border-radius: 3px;
     box-sizing: border-box;
 }
